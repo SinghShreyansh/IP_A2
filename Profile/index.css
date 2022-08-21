@@ -1,0 +1,436 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #202020;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.AppMain{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.home{
+  background-color: #202020;
+  color: white;
+
+  height: 60%;
+  width: 99%;
+  padding: 2px;
+  box-shadow: 4px 3px 8px 1px #1A1A1A;
+  -webkit-box-shadow: 4px 3px 8px 1px #1A1A1A;
+}
+
+.homeMain{
+  padding: 20px;
+
+}
+
+.homeMain > div{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.imageContainer{
+  background-color:202020;
+  border-radius: 150px;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.imageContainer > img{
+  width: 100%;
+  object-fit: contain;
+  border-radius: 50px;
+}
+
+.homeName{
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 44px;
+  color: #FEDA4E;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.homeDev{
+  overflow-wrap: normal;
+}
+
+
+.header{
+  background-color: #202020;
+  color: #d9d9d9;
+  width: 96%;
+  z-index: 1;
+  position: fixed;
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+
+}
+
+.headMain{
+  display: flex;
+  padding: 10px;
+  flex: 1;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.headMain > a{
+ color: #fff;
+}
+
+.headMain > a:hover{
+  color: violet;
+}
+
+.headMain > div {
+  margin-left: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: font-size 1s ;
+}
+
+.headMain > div:hover{
+color: rgb(247, 72, 72);
+text-decoration: underline;
+font-size: 18px;
+
+}
+
+
+.social{
+  display: flex;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.social > a {
+margin-left: 12px;
+border-radius: 50px;
+border: 1px solid #fff;
+
+}
+
+
+.social > a:hover{
+  border-radius: 5px;
+}
+
+.social > img {
+  object-fit: contain;
+  padding: 5px;
+}
+.instagram > img{
+  height: 24px;
+  width: 24px;
+  padding: 5px;
+
+}
+
+
+.twitter > img{
+  height: 24px;
+  width: 24px;
+  padding: 5px;
+}
+
+.Github > img{
+  height: 24px;
+  width: 24px;
+  padding: 5px;
+}
+
+
+
+.projectListMain1{
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  flex-wrap: wrap;
+}
+
+.projectListMain2{
+  display: flex;
+   justify-content: center;
+  margin: 30px;
+  flex-wrap: wrap;
+
+}
+
+.projectListTitle{
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.projectList{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #272727;
+  box-shadow: 4px 3px 8px 1px #1A1A1A;
+  -webkit-box-shadow: 4px 3px 8px 1px #1A1A1A;
+}
+
+.projectMore{
+  margin-bottom: 20px;
+  color: white;
+}
+
+.projectMore:hover{
+  color: blue;
+}
+
+
+.projectVideo > video{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+
+}
+
+.projectTitle{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.projectTitle:hover{
+  color: white;
+}
+
+.projectVideo {
+  width: 97%;
+  overflow: hidden;
+  height: 225px;
+  object-fit: contain;
+}
+
+.projectDescription{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.projectComponent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+  overflow: hidden;
+  width: 300px;
+  background-color: #FEDA4E;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin: 10px;
+}
+
+.educationContent{
+  color: white;
+  background-color: #272727;
+  box-shadow: 4px 3px 8px 1px #1A1A1A;
+  -webkit-box-shadow: 4px 3px 8px 1px #1A1A1A;
+  display: flex;
+  height: 400px;
+  width:98vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.educationTitle{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.educationDegree{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.beIT{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.twelvthMark{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.tenthMark{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.EngineeringMark{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.contactConcept{
+  color: white;
+  width: 95vw;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 4px 1px 8px 1px #1A1A1A;
+  -webkit-box-shadow: 4px 3px 8px 1px #1A1A1A;
+}
+
+.emailForm{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+
+.contactMainText{
+  text-align: center;
+}
+.contactBox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contactPhone{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #202020;
+  border: 1px solid white;
+  padding: 5px;
+  color: white;
+}
+
+.compulsoryNotice{
+  margin-top: 10px;
+
+}
+
+.Sendbtn{
+
+  border-radius: 5px;
+  border: 2px solid white;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.Sendbtn:hover{
+  background-color: #272727;
+  color: white;
+}
+
+.skillsContent{
+  background-color: #202020;
+  color: white;
+  height: 400px;
+  box-shadow: 4px 1px 8px 1px #1A1A1A;
+  -webkit-box-shadow: 4px 3px 8px 1px #1A1A1A;
+}
+
+.skillTitle{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.skillMain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.skillLanguageBox{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.skillLanguageBox > div {
+  margin-left: 20px;
+}
+
+
+.skillTechnologiesBox{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.skillTechnologiesBox > div{
+  margin-left: 20px;
+}
+
+.skillPlatformBox{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.skillPlatformBox > div {
+  margin-left: 20px;
+}
